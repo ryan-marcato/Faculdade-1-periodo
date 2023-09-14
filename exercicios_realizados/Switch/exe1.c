@@ -30,6 +30,7 @@ int main() {
 
     switch(opcao) {
         case 1:
+
             printf("Digite um numero:");
             scanf("%d" ,&num);
             calculo = num % 2;
@@ -38,8 +39,11 @@ int main() {
             } else {
                 printf("Numero é impar\n");
             }
+
             break;
+
         case 2:
+
             printf("Digite sua idade:");
             scanf("%d" ,&idade);
             if(idade >= 18) {
@@ -47,7 +51,9 @@ int main() {
             } else {
                 printf("Voce é menor de idade\n");
             }
+
             break;
+
         default:
             printf("Opcao invalida\n");
     }
