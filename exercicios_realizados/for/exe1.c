@@ -1,14 +1,4 @@
-/**
- * @file exe5.c
- * @author Ryan Marcato
- * @brief Enunciado:
- * Faça um programa que calcule o fatorial de um número a ser digitado.
- * @version 0.1
- * @date 2023-10-03
- *
- * @copyright Copyright (c) 2023
- *
- */
+
 
 #include <stdio.h>
 #include <stdlib.h>
